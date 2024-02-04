@@ -1,0 +1,266 @@
+@import url('./globals.css');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+body{
+    color: #fff;
+    background: #2B2B2B;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    padding: 10px;
+}
+.footer .container{
+    margin: 0 auto;
+    max-width: 1084px;
+}
+.section .container{
+    margin: 0 auto;
+    max-width: 1084px;
+}
+.section{
+    padding: 80px 0;
+}
+.section-header{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.button{
+    gap: 5px;
+    color: #fff;
+    display: flex;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 20px;
+    align-items: center;
+    background: #A259FF;
+    justify-content: center;
+}
+.more{
+    gap: 10px;
+    min-width: 194px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    border: 2px solid  #A259FF;
+}
+.form-subscribe_inner{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    padding: 60px;
+    justify-content: space-between;
+    border-radius: 15px;
+    background: #3B3B3B;
+}
+.form-subscribe{
+    display: flex;
+    height: 60px;
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+.form-subscirebe_left{
+    width: 30%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.form-subscirebe_left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.form-subscribe_right{
+    gap: 10px;
+    display: flex;
+    max-width: 425px;
+    flex-direction: column;
+}
+.form-subscribe_title{
+    font-size: 33px;
+    font-weight: 600;
+}
+.form-subscribe input{
+   width: 100%;
+   height: 100%;
+   background: #fff;
+   border-radius: 15px;
+   padding: 0 20px;
+}
+.form-subscribe button{
+    min-width: 211px;
+    border-radius: 15px;
+    position: absolute;
+    background: #A259FF;
+    color: #fff;
+    font-weight: 600;
+    height: 100%;
+    right: 0;
+}
+.offer-inner .button{
+    width: 224px;
+}
+.offer-inner{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.offer-left{
+    gap: 20px 0;
+    display: flex;
+    max-width: 490px;
+    flex-direction: column;
+}
+.offer-left h1{
+    font-size: 67px;
+    font-weight: 600;
+}
+.offer-left p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.offer-list_promo{
+    gap: 0 30px;
+    display: flex;
+}
+.promo-item{
+    gap: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+.promo-item_num{
+    font-weight: 700;
+    font-size: 20px;
+}
+.promo-item_text{
+    font-weight: 400;
+    font-size: 19px;
+}
+.offer-right{
+    width: 48%;
+}
+.offer-box{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+.offer-box_image{
+    width: 100%;
+    height: 401px;
+}
+.offer-box_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.offer-box_info{
+    gap: 10px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.box-text{
+    font-size: 19px;
+    font-weight: 600;
+}
+.nft-profile{
+    gap: 0 12px;
+    display: flex;
+}
+.nft-porifle_avatar{
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: relative;
+}
+.nft-porifle_avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.section-description{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.home-banner{
+    height: 660px;
+    background-image: url('/image/home_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media(max-width: 950px){
+    .container{
+        padding: 0 25px;
+    }
+    .offer-left h1{
+        font-size: 34px;
+    }
+    .offer-box_image{
+        height: 221px;
+    }
+    .form-subscribe_right{
+        max-width: 42%;
+    }
+    .form-subscribe_right .form-subscribe{
+        gap: 15px;
+        height: fit-content;
+        flex-direction: column;
+    }
+    .form-subscribe_right button{
+        position: relative;
+    }
+    .form-subscribe_right button,  .form-subscribe_right input{
+        height: 60px;
+    }
+    .form-subscribe_inner{
+        padding: 30px;
+    }
+}
+@media(max-width: 650px){
+    .section{
+        padding: 50px 0;
+    }
+    .more{
+        display: none;
+    }
+    .offer-inner{
+        flex-direction: column;
+    }
+    .offer-left{
+        max-width: 100%;
+    }
+    .offer-right{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .offer-inner .button{
+        width: 100%;
+    }
+    .form-subscribe_inner{
+        padding: 0;
+        align-items: start;
+        background: transparent;
+        flex-direction: column;
+    }
+    .form-subscirebe_left{
+        width: 100%;
+        height: 255px;
+    }
+    .form-subscribe_right{
+        width: 100%;
+        max-width: 100%;
+    }
+}

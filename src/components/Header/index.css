@@ -1,0 +1,36 @@
+.header .container{
+    padding: 10px 50px;
+}
+.header-inner{
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav{
+    gap: 0 40px;
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    gap: 0 40px;
+    display: flex;
+}
+.header-li a{
+    color: #fff;
+    font-weight: 600;
+}
+.burger{
+    display: none;
+}
+@media(max-width: 950px){
+    .burger{
+        display: block;
+    }
+    .header-nav{
+        display: none;
+    }
+    .header .container{
+        padding: 0 30px;
+    }
+}
