@@ -1,7 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
+## Задачи проекта
+1. Верстка проекта по макету figma template
+2. Релизаци роутинга на next.js
+3. Реализация функции отправки почтовых писем с форм
+4. Подключение системы управления сайтов
+5. Сдача проекта
+6. Доработка проекта после сдачи
 First, run the development server:
 
 ```bash
